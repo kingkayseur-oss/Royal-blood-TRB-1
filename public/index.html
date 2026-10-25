@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>ᴋᴀʏsᴇᴜʀ_ᴍᴅx • Pairing Code</title>
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="assets/bg.mp4" type="video/mp4" />
+  </video>
+  <div class="overlay"></div>
+  <div class="particles" id="particles"></div>
+
+  <main class="card">
+    <div class="logo">
+      <span class="logo-leaf">🍁</span>
+      <h1>ᴋᴀʏsᴇᴜʀ_ᴍᴅx</h1>
+      <span class="logo-leaf">🍓</span>
+    </div>
+    <p class="subtitle">ᴡʜᴀᴛsᴀᴩᴩ ʙᴏᴛ ᴩᴜʙʟɪᴄ • ɢᴇɴᴇʀᴀᴛᴇᴜʀ ᴅᴇ ᴩᴀɪʀɪɴɢ ᴄᴏᴅᴇ</p>
+
+    <form id="pairForm" class="pair-form">
+      <label for="number">ɴᴜᴍᴇʀᴏ ᴡʜᴀᴛsᴀᴩᴩ (ᴀᴠᴇᴄ ɪɴᴅɪᴄᴀᴛɪꜰ)</label>
+      <div class="input-wrap">
+        <span class="input-icon">📱</span>
+        <input type="tel" id="number" placeholder="ex: 221771234567" required autocomplete="off" />
+      </div>
+      <button type="submit" class="btn btn-primary" id="getCodeBtn">
+        <span>ᴏʙᴛᴇɴɪʀ ᴍᴏɴ ᴄᴏᴅᴇ</span>
+      </button>
+    </form>
+
+    <div id="codeBox" class="code-box hidden">
+      <p class="code-label">ᴛᴏɴ ᴄᴏᴅᴇ ᴅᴇ ᴊᴜᴍᴇʟᴀɢᴇ</p>
+      <div class="code-display" id="codeValue">— — — — — — — —</div>
+      <div class="timer-wrap">
+        <div class="timer-bar"><div class="timer-fill" id="timerFill"></div></div>
+        <span id="timerText">02:00</span>
+      </div>
+      <ol class="steps">
+        <li>WhatsApp → Paramètres → Appareils connectés</li>
+        <li>Connecter un appareil → Connecter avec un numéro</li>
+        <li>Entre le code ci-dessus avant expiration</li>
+      </ol>
+      <button class="btn btn-ghost" id="regenBtn">🔄 ʀᴇɢᴇɴᴇʀᴇʀ ʟᴇ ᴄᴏᴅᴇ</button>
+    </div>
+
+    <p id="errorMsg" class="error hidden"></p>
+
+    <a href="https://t.me/Mr_king_kayseur" target="_blank" rel="noopener" class="btn btn-contact">
+      📩 ᴄᴏɴᴛᴀᴄᴛᴇʀ ʟᴇ ᴅᴇᴠ
+    </a>
+
+    <footer class="footer">
+      <span>ᴅᴇᴠ : 🍁ᬼ⃟𝗠꯭𝗥꯭ 𝗖꯭𝗛꯭𝗔꯭𝗡꯭𝗣꯭𝗛꯭𝗜⃝🍓</span>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
