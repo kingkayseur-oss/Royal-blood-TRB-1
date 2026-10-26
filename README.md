@@ -1,6 +1,6 @@
 # ᴋᴀʏsᴇᴜʀ_ᴍᴅx — Bot WhatsApp + site de pairing code
 
-Dev : 🍁ᬼ⃟𝗠꯭𝗥꯭ 𝗖꯭𝗛꯭𝗔꯭𝗡꯭𝗣꯭𝗛꯭𝗜⃝🍓
+Dev : 🍁ᬼ⃟M͢r͢ k͢i͢n͢g͢ k͢a͢y͢s͢e͢u͢r͢🍓
 
 ## Contenu du projet
 
